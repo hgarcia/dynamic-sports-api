@@ -9,7 +9,7 @@ app.get("/", function (req, res) {
 
 app.post("/uploads", multipartyMiddleware, function (req, res) {
 	console.log(req.body, req.files);
-	res.send(req.files);
+	res.send(200);
 });
 
 var port = Number(process.env.PORT || 5000);

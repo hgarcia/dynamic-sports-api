@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-sports-api",
+  "version": "0.1.0",
+  "description": "dynamic-sports-api ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -w"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hgarcia:Gong696@github.com/hgarcia/dynamic-sports-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hgarcia/dynamic-sports-api/issues"
+  },
+  "dependencies": {
+    "express": "~4.1.1",
+    "mocha": "~1.18.2",
+    "should": "~3.3.1",
+    "connect-multiparty": "~1.0.3"
+  }
+}

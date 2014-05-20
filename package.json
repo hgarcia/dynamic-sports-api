@@ -22,6 +22,7 @@
     "express": "~4.1.1",
     "mocha": "~1.18.2",
     "should": "~3.3.1",
-    "connect-multiparty": "~1.0.3"
+    "connect-multiparty": "~1.0.3",
+    "multiparty": ""
   }
 }
